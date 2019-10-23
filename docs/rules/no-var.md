@@ -6,7 +6,7 @@ such as:
 
 ```js
 var count = people.length;
-var enoughFood = count > sandwiches.length;
+var enoughFood = count <= sandwiches.length;
 
 if (enoughFood) {
     var count = sandwiches.length; // accidentally overriding the count variable
